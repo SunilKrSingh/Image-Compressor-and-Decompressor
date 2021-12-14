@@ -3,12 +3,16 @@ This implementation uses Haar Wavelet Image Compression algorithm to compress an
 
 ## Guide to run the code:
 1. Run main_gray.m
+   ```
    Enter Filename:- mandi.tif (color image will also be accepted but grayscale will be considered)
    Get desired output
+   ```
 
 2. Run main_colors.m
+   ```
    Enter Filename:- peppers.png (grayscale image will not be accepted)
    Get desired output
+   ```
 
 (both are demo inbuilt images in MATLAB so it should work without downloading or uploading them to the workspace)
 (Also other image testing works well, algorithm has no restriction like size should be of power 2, etc which is )
@@ -68,5 +72,5 @@ This implementation uses Haar Wavelet Image Compression algorithm to compress an
 	Calls the lossless_haar(img) for different color channels and store the output in respective image channels.
 	Outputs the compressed and decompressed images, size of decompressed images, and shows the plots.
 
-- The other images added in this zip file are outputs for grayscale and color images for lossy and lossless compression.
-- Thank you!
+The other images added in this zip file are outputs for grayscale and color images for lossy and lossless compression.
+Thank you!
